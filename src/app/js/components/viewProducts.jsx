@@ -49,7 +49,7 @@ class ViewProducts extends React.Component {
 		else if(this.props.productList.fetchStatus === "SUCCESS" && filteredProdList.length === 0){
 			renderProdList = (
 				<div className="screenCenter">
-					<h2>Products Not Found</h2>
+					<h2>We couldn't find any matches!</h2>
 				</div>
 			);
 		}
