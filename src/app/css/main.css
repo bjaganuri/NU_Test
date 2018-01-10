@@ -1,0 +1,200 @@
+/* you can add any styles you think could improve user's experience */
+.header {
+	text-align: center;
+	font-size: 32px;
+}
+
+.logo {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	color: #fff;
+	text-align:center;
+	padding-top: 30px;
+	background: red;
+	cursor: pointer;
+}
+
+.logo p {
+	margin: 0px;
+}
+
+.logo p:nth-child(1) {
+	font-size: 20px;
+}
+
+.logo p:nth-child(2) {
+	font-size: 8px;
+	margin-top: -5px;
+	margin-left: 30px;
+}
+
+.searchProductForm {
+	height: 100px;
+}
+
+.display-block {
+	display: block;
+}
+.display-inline {
+	display: inline;
+}
+.display-inline-block {
+	display: inline-block;
+}
+
+.margin-top-25 {
+	margin-top: 25px;
+}
+
+.headerNormalFont {
+	font-size: 12px;
+}
+
+.headerIcons {
+	cursor: pointer;
+}
+
+.headerIcons p {
+	line-height: 1;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+.headerIcons a,  .headerIcons span{
+	line-height: 1;
+	margin-top: 5px;
+	display:block;
+}
+
+.headerIcons a:hover {
+	text-decoration: none;
+}
+
+.cartQuantityIndicator{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 12px;
+	transform: translate(-50%,-100%);
+    background: #fff;
+    border-radius: 50%;
+	color: blue;
+    width: 16px;
+    height: 16px;
+	z-index: 9999;
+	line-height: 1;
+	padding: 2px 0px;
+	margin-left: 2px;
+}
+
+.productSection {
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
+	margin: 1em 0em;
+	padding: 1em 0em;
+	min-height: 600px;
+	height: auto;
+	position: relative;
+}
+
+.productContainer {
+	height: 300px;
+	margin-bottom: 25px;
+	width: 23%;
+	margin-right: 2%;
+	box-shadow: 0px 0px 0px #aaaaaa;
+	background: #fff;
+	padding: 0px;
+}
+
+.productContainer:hover {
+	box-shadow: 1px 1px 1px 1px #00AEEF;
+}
+
+.productContainer img {
+	margin: 0 auto;
+	display: block;
+	margin-top: 15px;
+}
+
+.productContainer h4  {
+	margin-left: 5px;
+}
+
+.productContainerFooter h2, .productContainerFooter h4{
+	margin: 0px;
+	padding: 15px 5px;
+	width: 50%;
+	display: inline-block;
+}
+
+.productContainerFooter h4 .quanityValIndicator{
+	margin: 0px 5px;
+}
+
+.productContainerFooter {
+	color: #fff;
+	height: 96px;
+}
+
+.productContainerFooter-100 {
+	background-color: #70487d;
+}
+
+.productContainerFooter-250 {
+	background-color: #3e7488c4;
+}
+
+.productContainerFooter-500 {
+	background-color: #2f6958;
+}
+
+.productContainerFooter .btn {
+	background: #712c12;
+}
+
+.productContainerFooter .btn:hover {
+	color: #fff;
+}
+
+.productContainerFooter a {
+	color: #fff;
+	margin-right: 15px;
+}
+
+.screenCenter {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: gray;
+}
+
+.loader , .loadingMsg {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	z-index: 9999;
+	border: 16px solid #f3f3f3;
+	border-top: 16px solid #3498db;
+}
+
+.loadingMsg {
+	border: 16px solid transparent;
+	border-top: 16px solid transparent;
+	margin: 90px 0px 0px 60px;
+}
+
+.loader {
+  animation: spin 2s linear infinite;
+  z-index: 1;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
