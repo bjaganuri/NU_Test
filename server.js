@@ -33,6 +33,6 @@ app.use(function(req,res,next){
 		res.send({status:"ERROR" , type:'SERVER_ERROR' , message:"Invalid Resource Request"} , req , res);
 	}
 });
-
-const listener = app.listen(1337, () =>
+const PORT = process.env.PORT || 3000;
+const listener = app.listen(PORT, () =>
   console.log(`Running app on ${listener.address().address}${listener.address().port}`));
