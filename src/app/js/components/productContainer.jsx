@@ -62,7 +62,7 @@ class ProductContainer extends React.Component {
 					<h2>{price}{this.props.data.currency}</h2>
 					{addRemoveItemButton}
 					<p className="text-right">
-						<Link to={"home"}>More info >>></Link>
+						<a href="javascript:void(0)">More info >>></a>
 					</p>
 				</div>
 			</div>	

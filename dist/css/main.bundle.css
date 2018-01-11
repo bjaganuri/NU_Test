@@ -6954,4 +6954,8 @@ button.close {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+.footer {
+	margin-bottom: 25px;
+}
 /*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJjc3MvbWFpbi5idW5kbGUuY3NzIiwic291cmNlUm9vdCI6IiJ9*/
